@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+.navbarBackground {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 125px;
+    padding-top: 20px;
+    background: #FFB701;
+    border-radius: 0 0 10px 10px;
+    font-size: 1rem;
+    font-family: 'Calibri', sans-serif;
+}
+
+.linksTab {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 50%;
+    position: absolute;
+    right: 200px;
+}
+
+#logo {
+    position: absolute;
+    left: 120px;
+}
+
+.navLinks {
+    display: flex;
+    gap: 25px;
+}
+
+.navLinks a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.personalLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.personalLinks img {
+    height: 19px;
+    width: 19px;
+}
+
+.personalLinks a {
+    color: #000000;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.menuBurger {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-wrap: wrap;
+    width: 70px;
+    margin-top: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 120px;
+}
+
+.menuBurger p {
+    margin-bottom: 0;
+}
+
+.menuSmallBar,
+.menuBigBarOpen {
+    background: #000000;
+    height: 2px;
+    width: 48px;
+    border-radius: 10px;
+    margin-top: 7px;
+    transition: .5s;
+}
+
+.menuBigBar,
+.menuSmallBarOpen {
+    background: #000000;
+    height: 2px;
+    width: 60px;
+    border-radius: 10px;
+    margin-top: 7px;
+    transition: .5s;
+}
+
+.undisplayed {
+    display: none;
+}
