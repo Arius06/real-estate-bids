@@ -1,0 +1,60 @@
+.search-bar {
+    background: #ffffff;
+    border-radius: 10px;
+    width: 57vw;
+}
+
+input {
+    font-family: 'PT Sans', sans-serif;
+    border: none;
+    height: 40px;
+    padding: 0 16px 0 16px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.first-search {
+    border-radius: 10px 0 0 10px;
+    width: 60px;
+}
+
+.second {
+    border-left: 1px solid #000000;
+    margin-left: 5px;
+    width: 65px;
+}
+
+.third {
+    border-left: 1px solid #000000;
+    margin-left: 5px;
+    width: 120px;
+}
+
+.fourth {
+    border-left: 1px solid #000000;
+    margin-left: 5px;
+    width: 180px;
+}
+
+.fifth {
+    border-left: 1px solid #000000;
+    width: 50px;
+}
+
+.last-search {
+    border-radius: 0 10px 10px 0;
+    border-left: 1px solid #000000;
+    width: 50px;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+    background: #C20105;
+    border-radius: 10px;
+}
