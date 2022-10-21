@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer {
+    width: 100%;
+    margin: 0;
+    background: #424242;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+}
+.list {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    display: inline-grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+}
+.containerButton {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.toTopButton {
+    box-sizing: border-box;
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border: 6px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.topArrow {
+    width: 21px;
+    height: 10px;
+    cursor: pointer;
+}
+.text {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.dimension {
+    height: 32px;
+}
+.icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dimensions {
+    width: 43px;
+    height: 43px;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.newBuildings {
+    width: 150px
+}
+.mobileVersion {
+    display: flex;
+    margin-top: 8px;
+    margin-left: -6px;
+    align-items: center;
+}
+.icons{
+    margin: 35px;
+}
