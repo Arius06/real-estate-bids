@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import './navbar.css'
-import logo from './images/logo.png'
-import heart from './images/heart.png'
-import personIcon from './images/personIcon.png'
+import logo from '../images/logo.png'
+import heart from '../images/heart.png'
+import personIcon from '../images/personIcon.png'
 
 
 const Navbar = () => {
