@@ -44,7 +44,6 @@ const Footer = () => {
                 "Политика конфиденциальности"
             ]
         },
-
     }
     return (
         <div className="footer">
