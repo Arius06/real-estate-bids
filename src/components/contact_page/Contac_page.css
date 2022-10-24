@@ -1,0 +1,332 @@
+.allPage{
+    margin-right: 220px;
+    margin-left: 220px;
+}
+.title{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.title p{
+    color: #fdb602;
+    font-family: PT Sans, serif;
+    font-size: 46px;
+    font-weight: 700;
+}
+.title a {
+    color: #3379b7;
+    text-decoration: none;
+}
+.vK{
+    width: 55px !important;
+    height: 40px !important;
+    margin-right: -8px;
+}
+.title img {
+    width: 40px;
+    height: 40px;
+}
+.title > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 370px;
+    height: 80px;
+}
+.socialN{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+
+.aboutUs{
+   background-color: #fdb602;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.aboutUs p {
+    margin-left: 60px;
+    font-family: PT Sans, serif;
+    font-weight: 700;
+}
+
+.wAWDoing{
+    margin-top: 80px;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.divTitle{
+    width: 430px;
+    height: 30px;
+    background-color: #fdb602;
+    border-radius:0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divTitle p{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.wAWDoing div:last-child{
+display: flex;
+    margin-top: 100px;
+}
+.wAWDoing div:last-child p{
+    width: 600px;
+    height: 300px;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: 'PT Sans', serif;
+    margin-top: -10px;
+}
+iframe{
+    width: 600px;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.faces{
+    margin-top: 40px;
+    width: 100%;
+    height: 645px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.specificP{
+    width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specificP > div{
+    display: flex;
+    height: 550px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.specificP > div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15px;
+}
+.specificP > div div h3{
+    font-family: 'PT Sans', serif;
+    font-weight: 700;
+    font-size: 23px;
+}
+.specificP > div div p{
+    font-family: 'PT Sans', serif;
+    font-weight: 700;
+    color: #56C500;
+    margin-top: -10px;
+    font-size: 18px;
+}
+.specificP div a{
+    text-decoration: none;
+    color: #3379b7;
+    font-family: 'PT Sans', serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+.specificP div img{
+    width: 340px;
+    height: 355px;
+}
+
+.WriteToUsDiv{
+    display: flex;
+    width:1200px ;
+    justify-content: space-between;
+margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.messageForm{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 550px;
+    justify-content: space-between;
+}
+.messageForm h2{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.messageForm label{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: -15px;
+}
+.messageForm input{
+    height: 65px;
+}
+.messageForm textarea{
+    height: 120px;
+}
+
+.messageForm input ,.messageForm textarea{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid #C8C8C8;
+    border-radius: 10px;
+}
+.messageForm > div{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.messageForm > div button{
+    width: 240px;
+    height: 55px;
+    background: #FFB701;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.messageForm div div > p{
+    font-family: 'PT Sans',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.messageForm div div div{
+     display: flex;
+ }
+.messageForm div div div p{
+margin-top: 5px;
+    margin-right: 15px;
+}
+.messageForm div div div input{
+    width: 82px;
+    height: 25px;
+    border: 2px solid #C8C8C8;
+    border-radius: 6px;
+}
+.messages h2{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+.messages div{
+    width: 670px;
+    height: 400px;
+    border: 2px solid #FFB701;
+    border-radius: 10px;
+}
+
+
+.reviews{
+    margin-top: 40px;
+    width: 100%;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 70px rgb(0 0 0 / 25%), 0 1px 10px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.reviewsInfo{
+    width: 1245px;
+display: flex;
+    margin: 0 60px 0 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.reviewsInfo > img{
+    width: 365px;
+    height: 285px;
+}
+.reviewsInfo > div{
+    width: 800px;
+
+}
+.reviewsInfo > div p{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: -1px;
+}
+.reviewsInfo > div a{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: #337AB7;
+    margin-left: 600px;
+}
+.reviewsInfo > div > div > div img{
+    width: 40px;
+    height: 40px;
+}
+.reviewsInfo > div > div > div:last-child{
+    width:250px ;
+    display: flex;
+    justify-content: space-between;
+}
+.reviewsInfo > div > div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.reviewsInfo > div > div > div h3{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.reviewsInfo > div > div > div p{
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.reviews button{
+    width: 240px;
+    height: 50px;
+    background: #337AB7;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'PT Sans', serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
