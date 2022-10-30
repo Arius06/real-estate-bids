@@ -4,7 +4,7 @@ import searchIcon from '../images/search-icon.png'
 
 const Searchbar = () => {
     return (
-        <>
+        <div className="search-bar-body">
             <p>Hайдите то, что вам нужно</p>
             <div className="search-bar">
                 <input type="text" className="first-search" placeholder="Продажа"/>
@@ -20,7 +20,7 @@ const Searchbar = () => {
             <div className="search-button">
                 <img src={searchIcon} alt="arrow"/>
             </div>
-        </>
+        </div>
     )
 }
 

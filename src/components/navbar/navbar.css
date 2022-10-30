@@ -52,7 +52,7 @@
     text-decoration: none;
 }
 
-.wrapper {
+.nav-wrapper {
     display: flex;
     gap: 20px;
 }

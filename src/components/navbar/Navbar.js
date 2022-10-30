@@ -15,7 +15,7 @@ const Navbar = () => {
                 <img id="logo" src={logo} alt="logo"/>
                 <div className={menuToggle ? "linksTab" : "undisplayed"}>
                     <p>Покупателей\собственников онлайн: 5</p>
-                    <div className="wrapper">
+                    <div className="nav-wrapper">
                         <div className="navLinks">
                             <a href="#">Как купить?</a>
                             <a href="#">Как продать?</a>

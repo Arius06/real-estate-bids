@@ -5,10 +5,10 @@ import Searchbar from "./components/Searchbar";
 const Homepage = () => {
     return (
         <>
-            <div className="wrapper">
-                <div className="headers">
+            <div className="homepage-wrapper">
+                <div className="homepage-headers">
                     <h1>БЫСТРАЯ ПРОДАЖА\ПОКУПКА НЕДВИЖИМОСТИ</h1>
-                    <div className="description">
+                    <div className="homepage-description">
                         <p>Объявления собственников о продаже квартир, комнат, коттеджей, домов, дач</p>
                     </div>
                 </div>

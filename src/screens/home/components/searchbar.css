@@ -1,7 +1,13 @@
+.search-bar-body {
+    display: flex;
+    gap: 10px;
+}
+
 .search-bar {
     background: #ffffff;
     border-radius: 10px;
     width: 56.5vw;
+    height: 40px;
 }
 
 input {

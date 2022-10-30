@@ -148,6 +148,7 @@
 .buybutton1,
 .buybutton2,
 .buybutton3 {
+    cursor: pointer;
     height: 32px;
     width: 147px;
     border-radius: 10px;
@@ -155,6 +156,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .3s ease-out;
 }
 
 .buybutton1 {
@@ -167,6 +169,12 @@
 
 .buybutton3 {
     background: #C20105;
+}
+
+.buybutton1:hover,
+.buybutton2:hover,
+.buybutton3:hover {
+    transform: scale(1.1);
 }
 
 #warning-text {
