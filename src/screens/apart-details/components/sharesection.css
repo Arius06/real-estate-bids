@@ -1,0 +1,22 @@
+.icon-section p {
+    font-size: 16px;
+    color: #337AB7;
+}
+
+.icons {
+    display: flex;
+    gap: 5px;
+}
+
+.icons img {
+    cursor: pointer;
+}
+
+.icons img:hover {
+    transform: translateY(-5px);
+    transition: .4s;
+}
+
+a {
+    text-decoration: none;
+}

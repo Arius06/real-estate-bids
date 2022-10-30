@@ -1,0 +1,103 @@
+.offer {
+    box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.offer-header {
+    height: 28px;
+    width: 560px;
+    margin-bottom: 0;
+    background: #FFB701;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+}
+
+.headertext1 {
+    font-weight: 900;
+    font-size: 16px;
+}
+.headertext2{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.offer-box {
+    display: flex;
+    width: 560px;
+    height: 232px;
+    background: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+    font-size: 14px;
+}
+
+.other-offers img {
+    cursor: pointer;
+    height: 174px;
+    width: 195px;
+    margin: 30px 10px 30px 10px;
+}
+
+.offer-specs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+
+.current-price {
+    margin-left: 40px;
+}
+
+.current-price b,
+.timer b,
+.watch-later b {
+    font-weight: 400;
+    color: #FFB701;
+}
+
+.blitz-price b {
+    font-weight: 400;
+    color: #337AB7;
+}
+
+.blitz-price {
+    margin-left: 60px;
+}
+
+.learn-more-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+    height: 32px;
+    border-radius: 10px;
+    background: #FFB701;
+    margin-right: 14px;
+    transition: transform .3s ease-out;
+}
+
+.learn-more-button:hover {
+    transform: scale(1.05);
+}
+
+.description {
+    width: 198px;
+    height: 36px;
+}
+
+.description p {
+    font-size: 14px;
+}
+
+.learn-more-button p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}

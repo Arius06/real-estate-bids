@@ -1,0 +1,20 @@
+.other-offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.advertisment-box {
+    width: 560px;
+    height: 258px;
+    background: #D8D8D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advertisment-box p {
+    font-weight: 900;
+}
