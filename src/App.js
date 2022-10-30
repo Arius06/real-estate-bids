@@ -1,15 +1,15 @@
 import Navbar from './components/Navbar'
 import Homepage from './screens/home/Homepage'
 import DetailsScreen from "./screens/apart-details/DetailsScreen";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
+import Contact_page from "./components/contact_page/Contact_page";
 
 function App() {
   return(
       <>
         <Navbar />
-        <DetailsScreen />
-        {/*<Homepage />*/}
-        {/*<Footer/>*/}
+        <Homepage />
+        <Footer/>
       </>
   )
 }
