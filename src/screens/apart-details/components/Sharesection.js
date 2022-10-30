@@ -13,14 +13,14 @@ const Sharesection = () => {
         <div className="icon-section">
             <p>Посоветуйся с другом</p>
             <div className="icons">
-                <a href="https://vk.com"><img src={vk} alt="vk-icon" id="vkicon"/></a>
-                <a href="https://ok.ru"><img src={okru} alt="okru-icon"/></a>
-                <a href="https://www.facebook.com"><img src={facebook} alt="fb-icon"/></a>
-                <a href="https://www.myworld.com/md-ro"><img src={myworld} alt="mw-icon"/></a>
-                <a href="https://twitter.com"><img src={twitter} alt="twt-icon"/></a>
-                <a href="https://www.viber.com/en/"><img src={viber} alt="viber-icon"/></a>
-                <a href="https://telegram.org"><img src={telegram} alt="teleg-icon"/></a>
-                <a href="https://www.whatsapp.com"><img src={whatsapp} alt="wa-icon"/></a>
+                <a href="https://vk.com" target="_blank" rel="noreferrer"><img src={vk} alt="vk-icon" id="vkicon"/></a>
+                <a href="https://ok.ru" target="_blank" rel="noreferrer"><img src={okru} alt="okru-icon"/></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noreferrer"><img src={facebook} alt="fb-icon"/></a>
+                <a href="https://www.myworld.com/md-ro" target="_blank" rel="noreferrer"><img src={myworld} alt="mw-icon"/></a>
+                <a href="https://twitter.com" target="_blank" rel="noreferrer"><img src={twitter} alt="twt-icon"/></a>
+                <a href="https://www.viber.com/en/" target="_blank" rel="noreferrer"> <img src={viber} alt="viber-icon"/></a>
+                <a href="https://telegram.org" target="_blank" rel="noreferrer"><img src={telegram} alt="teleg-icon"/></a>
+                <a href="https://www.whatsapp.com" target="_blank" rel="noreferrer"><img src={whatsapp} alt="wa-icon"/></a>
             </div>
         </div>
     )

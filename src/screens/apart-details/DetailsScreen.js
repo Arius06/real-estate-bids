@@ -1,7 +1,6 @@
 import './detailsScreen.css'
 import previewImg from './images/preview.png'
 import mapImage from './images/map.png'
-import videoImg from './images/videoprev.png'
 import profilepic from './images/profile-pic.png'
 import Sharesection from "./components/Sharesection";
 import Otheroffers from "./components/Otheroffers";
