@@ -3,16 +3,18 @@ import './navbar.css'
 import logo from '../images/logo.png'
 import heart from '../images/heart.png'
 import personIcon from '../images/personIcon.png'
+import { useNavigate } from "react-router-dom";
 
 
 const Navbar = () => {
 
     const [menuToggle, setMenuToggle] = useState(false);
+    const navigate = useNavigate();
 
     return (
         <>
             <div className="navbarBackground">
-                <img id="logo" src={logo} alt="logo"/>
+                <img id="logo" src={logo} alt="logo" onClick={()=> navigate("/")}/>
                 <div className={menuToggle ? "linksTab" : "undisplayed"}>
                     <p>Покупателей\собственников онлайн: 5</p>
                     <div className="nav-wrapper">
