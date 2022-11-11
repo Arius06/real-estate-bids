@@ -1,0 +1,103 @@
+.title h2{
+    width: 200px;
+    height: 63px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+}
+.title h2 span{
+    color: #fdb602;
+}
+.aboutUs {
+display: flex;
+    justify-content: space-between;
+}
+.aboutUs h3{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+.rulesForBuyingText{
+    margin-top: 80px;
+    position: absolute;
+    width: 1250px;
+    height: 425px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 33px;
+    letter-spacing: 0.07em;
+}
+.auctionScrVideo{
+    margin-top: 55px;
+    margin-right: 0 !important;
+    width: 1040px;
+    height: 500px;
+}
+.blockAD{
+    display: flex;
+    width: 100%;
+    height: 270px;
+    background: #D8D8D8;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.blockAD p{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.rateArticle{
+    margin-top: 35px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.rateArticle div :first-child {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: #337AB7;
+}
+.rateArticleFD{
+margin-right: 100px;
+}
+.rateArticle :first-child div  {
+    display: flex;
+     width: 225px;
+     height: 77px;
+     align-items: center;
+     justify-content: space-between;
+ }
+.rateArticle :first-child div img {
+    width: 38px;
+    height: 38px;
+}
+.rateArticle :last-child div img {
+    width: 38px;
+    height: 38px;
+}
+.rateArticle :last-child div  {
+    display: flex;
+    width: 370px;
+    height: 77px;
+    align-items: center;
+    justify-content: space-between;
+}
