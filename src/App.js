@@ -4,6 +4,7 @@ import Homepage from './screens/home/Homepage'
 import DetailsScreen from "./screens/apart-details/DetailsScreen";
 import Contact_page from "./components/contact_page/Contact_page";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import AuctionScreen from "./components/auction_screen/Auction_screen";
 
 const App = () => {
     return (
