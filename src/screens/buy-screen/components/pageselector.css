@@ -1,0 +1,28 @@
+.page-selector-container {
+    margin: 35px 0 35px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.page-square {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.page-square:hover {
+    background: #FFB701;
+}
+
+.page-square img {
+    rotate: -90deg;
+    height: 12px;
+    width: 16px;
+}

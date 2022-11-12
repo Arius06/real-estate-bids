@@ -1,6 +1,6 @@
 import React from 'react';
-import "../contact_page/Contac_page.css"
-import TestObjects from "../contact_page/imgObj";
+import "../../components/contact_page/Contac_page.css"
+import TestObjects from "../../components/contact_page/imgObj";
 import "./Auction_screen.css";
 
 const AuctionScreen = () => {
@@ -53,7 +53,7 @@ const AuctionScreen = () => {
             <div className="rateArticle">
 
                 <div className="rateArticleFD">
-                    <a href="">Оцени статью</a>
+                    <a href="src/screens/auction_screen/Auction_screen">Оцени статью</a>
                     <div>
                         <img src={TestObjects.imG10} alt=""/>
                         <img src={TestObjects.imG10} alt=""/>
@@ -63,7 +63,7 @@ const AuctionScreen = () => {
                     </div>
                 </div>
                 <div>
-                    <a href="">Понравилась статья - поделись с другом</a>
+                    <a href="src/screens/auction_screen/Auction_screen">Понравилась статья - поделись с другом</a>
                     <div>
                         <img className="vK" src={TestObjects.imG} alt=""/>
                         <img src={TestObjects.imG1} alt=""/>

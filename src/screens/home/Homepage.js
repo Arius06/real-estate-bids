@@ -23,6 +23,7 @@ const Homepage = () => {
                         <img src={dropDownArrow} alt="arrow"/>
                     </div>
                 </div>
+                <p className="informative-text">найдите то, что вам нужно</p>
                 <Searchbar />
             </div>
         </>
