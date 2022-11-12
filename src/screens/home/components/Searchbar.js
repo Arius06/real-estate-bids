@@ -5,7 +5,6 @@ import searchIcon from '../images/search-icon.png'
 const Searchbar = () => {
     return (
         <div className="search-bar-body">
-            <p>Hайдите то, что вам нужно</p>
             <div className="search-bar">
                 <input type="text" className="first-search" placeholder="Продажа"/>
                 <img src={dropDownArrow} alt="arrow"/>

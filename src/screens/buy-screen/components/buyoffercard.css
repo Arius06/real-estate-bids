@@ -1,0 +1,158 @@
+.offer {
+    box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25), 0 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.offer-header {
+    height: 28px;
+    width: 740px;
+    margin-bottom: 0;
+    background: #FFB701;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 180px;
+}
+
+.headertext1 {
+    font-weight: 900;
+    font-size: 16px;
+}
+.headertext2{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.offer-box {
+    display: flex;
+    width: 740px;
+    height: 232px;
+    background: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+    font-size: 14px;
+}
+
+.other-offers img {
+    cursor: pointer;
+    height: 174px;
+    width: 195px;
+    margin: 30px 10px 30px 10px;
+}
+
+.offer-specs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    width: 330px;
+}
+
+.current-price {
+    margin-left: 24px;
+}
+
+.timer {
+    height: 57px;
+}
+
+.current-price b,
+.timer b,
+.watch-later b {
+    font-weight: 400;
+    color: #FFB701;
+}
+
+.blitz-price b {
+    font-weight: 400;
+    color: #337AB7;
+}
+
+.blitz-price {
+    margin-left: 50px;
+    height: 67px;
+}
+
+.learn-more-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 186px;
+    height: 32px;
+    border-radius: 10px;
+    background: #FFB701;
+    margin-right: 14px;
+    transition: transform .3s ease-out;
+}
+
+.learn-more-button:hover {
+    transform: scale(1.05);
+}
+
+.description {
+    width: 198px;
+    height: 36px;
+}
+
+.description p {
+    font-size: 14px;
+}
+
+.learn-more-button p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.quickbuy-buttons-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+    height: 124px;
+    margin-top: 30px;
+    gap: 13px;
+}
+
+.your-bid-button,
+.make-bid-button,
+.buy-now-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 32px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.your-bid-button {
+    border: 1px solid #000000;
+}
+
+.make-bid-button {
+    cursor: pointer;
+    background: #337AB7;
+}
+
+.make-bid-button:hover,
+.buy-now-button:hover {
+    transform: scale(1.05);
+}
+
+.buy-now-button {
+    cursor: pointer;
+    background: #C20105;
+}
+
+.make-bid-button p,
+.buy-now-button p {
+    color: #FFF3F3;
+    font-weight: 700;
+    font-size: 16px;
+}
