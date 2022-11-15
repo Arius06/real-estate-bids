@@ -1,6 +1,7 @@
 import './homepage.css'
 import dropDownArrow from './images/dropdown-icon.png'
 import Searchbar from "./components/Searchbar";
+import Apartments from "../../Apartments";
 
 const Homepage = () => {
     return (
@@ -26,6 +27,7 @@ const Homepage = () => {
                 <p className="informative-text">найдите то, что вам нужно</p>
                 <Searchbar />
             </div>
+            <Apartments />
         </>
     )
 }

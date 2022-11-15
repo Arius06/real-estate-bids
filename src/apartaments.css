@@ -1,0 +1,75 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.first{
+    height: 52px;
+    left: 364px;
+    top: 873px;
+}
+
+.title {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFB701;
+}
+
+.second{
+
+    width: 1018px;
+    height: 111px;
+    left: 191px;
+    top: 959px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.sale{
+    /*font-family: 'PT Sans';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFB701;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+}
+
+.rooms{
+    /*position: absolute;*/
+    /*width: 691px;*/
+    /*height: 21px;*/
+    /*left: 220px;*/
+    /*top: 1289px;*/
+
+    /*font-family: 'PT Sans';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 20px;
+
+
+    letter-spacing: 0.05em;
+
+    color: #337AB7;
+}
