@@ -1,12 +1,12 @@
 import './slides.css';
-import Left from "./assets/images/Left.png";
-import Right from "./assets/images/Right.png";
-import Image from "./assets/images/Image (6).png";
-import Icon from "./assets/images/Heart.png";
+import Left from "../../../assets/images/Left.png";
+import Right from "../../../assets/images/Right.png";
+import Image from "../../../assets/images/Image (6).png";
+import Icon from "../../../assets/images/Heart.png";
 import Countdown from "react-countdown";
 
 const timer = ({ days, hours, minutes}) => {
-    return <span className="countdown">{days}:{hours}:{minutes}</span>;
+    return <div className="countdown-first">{days}:{hours}:{minutes}</div>;
 }
 
 const Slides = () => {

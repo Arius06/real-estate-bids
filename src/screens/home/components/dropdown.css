@@ -1,0 +1,36 @@
+.down {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /*padding-top: 40px;*/
+    flex-direction: column;
+}
+
+.drop-btn {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.rooms {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    letter-spacing: 0.05em;
+    color: #337AB7;
+}
+
+.menu-all {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.menu-item {
+    display: flex;
+}
