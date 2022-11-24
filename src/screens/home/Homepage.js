@@ -2,6 +2,7 @@ import './homepage.css'
 import dropDownArrow from './images/dropdown-icon.png'
 import arrowSelector from './images/arrow-selector.png'
 import Searchbar from "./components/Searchbar";
+import Apartments from "./Apartments";
 
 const Homepage = () => {
 
@@ -73,6 +74,9 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
+
+                <Apartments/>
+
         </>
     )
 }
